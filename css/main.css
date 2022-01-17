@@ -1,0 +1,154 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap");
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: lavender;
+}
+
+.img {
+  width: 100%;
+}
+
+.hero .hero-left {
+  background: url(/images/game-countdown.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 100vh;
+  background-size: cover;
+  color: #fff;
+  overflow-x: hidden;
+  position: relative;
+}
+
+.hero .hero-left::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+.hero .hero-left .countdown-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  margin-top: 6rem;
+  text-align: center;
+  position: relative;
+  z-index: 2;
+}
+
+.hero .hero-left .countdown-container .big-text {
+  font-size: calc(3.9rem + 4vw);
+  line-height: 1;
+  font-weight: 600;
+  margin: 1rem 2rem;
+}
+
+.hero .hero-left .countdown-container span {
+  text-align: center;
+  font-size: calc(.8rem + .8vw);
+  font-weight: 300;
+}
+
+.hero .hero-left .lower {
+  text-align: center;
+  position: relative;
+  z-index: 2;
+  margin-top: 18rem;
+}
+
+.hero .hero-left .lower .button {
+  text-align: center;
+  margin: auto;
+  background: orangered;
+  padding: .7rem 1rem;
+  font-size: .9rem;
+  border: none;
+  text-transform: uppercase;
+  cursor: pointer;
+  color: #fff;
+  -webkit-transition: scale .3s ease;
+  transition: scale .3s ease;
+  margin: .7rem auto;
+  border-radius: 5px;
+  margin-top: 1rem;
+}
+
+.hero .hero-left .lower .button:hover {
+  -webkit-transform: scale(1.07);
+          transform: scale(1.07);
+}
+
+.hero .hero-left .lower p {
+  text-transform: uppercase;
+  font-size: .9rem;
+}
+
+.hero .hero-right {
+  background: url(/images/xmas.jpg);
+  background-repeat: no-repeat;
+  background-position: bottom center;
+  height: 100vh;
+  background-size: cover;
+  overflow-x: hidden;
+  position: relative;
+}
+
+.hero .hero-right .title {
+  color: red;
+  text-align: center;
+  font-size: calc(2.9rem + 2vw);
+  padding-top: 3.5rem;
+}
+
+.hero .hero-right .title span {
+  color: green;
+}
+
+.hero .hero-right .countdown-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  margin-top: 3.5rem;
+  text-align: center;
+  position: relative;
+  z-index: 2;
+}
+
+.hero .hero-right .countdown-container .big-text {
+  font-size: calc(3.9rem + 4vw);
+  line-height: 1;
+  font-weight: 600;
+  margin: 1rem 2rem;
+}
+
+.hero .hero-right .countdown-container span {
+  text-align: center;
+  font-size: calc(.8rem + .8vw);
+  font-weight: 300;
+}
+/*# sourceMappingURL=main.css.map */
